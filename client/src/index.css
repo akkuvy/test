@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+   display: block; 
+  justify-content: left;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 5rem 0.5rem;
+  
+  
+}
+
+
+
+section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+ a:visited {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+  
+}
+
+button {
+  padding: 0.5rem;
+  width: auto;
+  height: 50px;
+  background-color: rgb(86, 123, 138);
+  position:relative;
+  font-size: 25px; 
+  bottom: 10px;
+  padding: 5px 10px;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+.sign-button{
+    background-color: rgb(163, 192, 204);
+}
+.add-button{
+    background-color: rgb(201, 171, 192);
+    width:60px; 
+    height:30px;
+    font-size: 15px;
+    align-items: center;
+    line-height: 2;
+}
+.delete-button{
+    background-color:rgb(184, 124, 124);
+    width:50px;
+    height: 30px;
+    font-size: 10px;
+}
+.edit-button{
+
+        background-color: rgb(194, 123, 156);
+        width: 50px; 
+        height: 30px;
+        font-size: 10px;
+      
+}
+.button-row {
+    display: flex;
+    gap: 10px; 
+    
+    
+    
+  }
+  .Attendance{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .check{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin-top: 50px;
+    width:100px;
+    height: 40px;
+    font-size: 16px;
+
+  }
+  .submit{
+    margin-top:20px;
+  }
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* .form-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    margin: 0 auto;
+  }
+   */
+
+   /* .form-sub {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+  }
+  
+  .form-sub input[type="email"],
+  .form-sub input[type="password"] {
+    width: 100%;
+  }
+  
+  .form-sub button {
+    width: 100%;
+  } */
+
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container input[type="email"],
+  .form-container input[type="password"],
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    background-color: #4682B4;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+
+
+
+  .form-sub {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .form-sub h2 {
+    text-align: center;
+  }
+  
+  .form-sub form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-sub input[type="email"],
+  .form-sub input[type="password"],
+  .form-sub button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-sub button {
+    background-color: #4682B4;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .form-sub button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  
+  
+  label {
+    margin-bottom: 10px;
+    
+  }
+  .email{
+    margin-bottom:10px;
+    border:1px solid rgb(20, 20, 20);
+    border-radius:20px;
+    padding:10px;
+  }
+  .password{
+    margin-bottom:10px;
+    border:1px solid rgb(20, 20, 20);
+    border-radius:50px;
+    padding:20px;
+    height:50px;
+
+  }
+  
+  input, button {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  @media (max-width: 600px) {
+    .container {
+      max-width: 300px;
+    }
+  }
+  
+  
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+.adm-btn{
+    margin-top:20px;
+    width:295px;
+}
+.adm-pass{
+    width:295px;
+}

@@ -1,0 +1,33 @@
+{
+"employee-list":[
+    {
+        
+            "id": 1,
+            "name":"'Avanthika",
+            "email": "avanthika@gmail.com",
+            "age":"23"
+            
+            
+            
+        },
+        {
+            "id":2,
+            "name": "Vyshali",
+            "email": "vyshali@gmail.com",
+            "age":"24"
+        },
+        {
+            "id": 3,
+            "name": "Anusha",
+            "email": "anusha@gmail.com",
+            "age":"23"
+            
+                
+            
+            
+        }
+        
+    
+
+]
+}
